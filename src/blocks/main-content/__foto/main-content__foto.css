@@ -1,0 +1,27 @@
+.main-content__foto {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  margin-left: -20px;
+}
+
+.main-content__foto:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 38px;
+  height: 38px;
+  background-color: #ff8345;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  z-index: -1;
+}
+
+.main-content__foto:first-child::after {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../../../images/plus.svg") no-repeat center/cover;
+}

@@ -1,0 +1,49 @@
+@import url(../vender/normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&display=swap");
+@import url("../blocks/body/body.css");
+@import url("../blocks/page/page.css");
+@import url("../blocks/header/header.css");
+
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/logo/__image/logo__image.css");
+@import url("../blocks/logo/__title/logo__title.css");
+
+@import url("../blocks/navigation/__link/navigation__link.css");
+@import url("../blocks/navigation/navigation.css");
+@import url("../blocks/navigation-menu/navigation-menu.css");
+
+@import url("../blocks/button/button.css");
+
+@import url("..//blocks/main/main.css");
+
+/* секция main-content */
+@import url("../blocks/main-content/main-content.css");
+@import url("../blocks/main-title/main-title.css");
+@import url("../blocks/main-title/__span/main-title__span.css");
+@import url("../blocks/main-title/__first-part/main-title__first-part.css");
+@import url("../blocks/main-title/__second-part/main-title__second-part.css");
+
+@import url("../blocks/main-subtitle/main-subtitle.css");
+
+@import url("../blocks/button/_position/button_position_main-content.css");
+
+@import url("../blocks/search-form/search-form.css");
+@import url("../blocks/search-form/__button/search-form__button.css");
+@import url("../blocks/search-form/__input/search-form__input.css");
+
+@import url("../blocks/main-content/__fotos-container/main-content__fotos-container.css");
+@import url("../blocks/main-content/__footer/main-content__footer.css");
+@import url("../blocks/main-content/__foto/main-content__foto.css");
+@import url("../blocks/main-content/__text/main-content__text.css");
+/* секция main-content */
+
+/* секция animation*/
+@import url("../blocks/animation/animation.css");
+@import url("../blocks/animation/__round/animation__round.css");
+@import url("../blocks/animation/__woman/animation__woman.css");
+@import url("../blocks/animation/__icon/animation__icon.css");
+@import url("../blocks/animation/__link/animation__link.css");
+@import url("../blocks/keyframes/keyframes.css");
+@import url("../blocks/animation/__image/animation__image.css");
+/* секция animation*/

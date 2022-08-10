@@ -1,0 +1,22 @@
+.search-form__input {
+  box-sizing: border-box;
+  max-width: 597px;
+  width: 100%;
+  padding: 21px 40px;
+  border: none;
+  border-radius: 100px;
+}
+
+.search-form__input::placeholder {
+  font: 16px/1.5 "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .search-form__input::placeholder {
+    font-size: 11px;
+  }
+
+  .search-form__input {
+    padding-left: 15px;
+  }
+}

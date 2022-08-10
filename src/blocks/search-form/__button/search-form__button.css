@@ -1,0 +1,26 @@
+.search-form__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #48b774;
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  border: none;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.search-form__button::after {
+  content: "";
+  width: 26px;
+  height: 26px;
+  background: url("../../../images/search-icon.svg") no-repeat center/cover;
+}
+
+.search-form__button:hover {
+  opacity: 0.7;
+}

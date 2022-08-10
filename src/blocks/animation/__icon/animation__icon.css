@@ -1,0 +1,6 @@
+.animation__icon {
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  z-index: 8;
+}
